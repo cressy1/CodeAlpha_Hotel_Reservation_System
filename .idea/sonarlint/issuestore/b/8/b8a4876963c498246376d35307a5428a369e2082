@@ -1,0 +1,4 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(°™ý÷
+r	java:S116"VRename this field "NumOfAdults" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(þøåó8üÖ×½¦2
+s	java:S116"XRename this field "NumOfChildren" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(¢ÙÑh8üÖ×½¦2

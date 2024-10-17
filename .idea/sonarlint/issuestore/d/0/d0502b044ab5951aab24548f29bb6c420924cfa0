@@ -1,0 +1,14 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(İóùøÿÿÿÿ8Ô±¡â¦2
+j
+java:S36554"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(ÍıŸ¹ûÿÿÿÿ8í±¡â¦2
+e
+java:S3655E"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(ÌÌÂ·8íÌä”§2
+j
+java:S3655I"HCall "user.isPresent()" or "!user.isEmpty()" before accessing the value.(¦êÊ§ùÿÿÿÿ8íÌä”§2
+e
+java:S3655N"HCall "role.isPresent()" or "!role.isEmpty()" before accessing the value.(½ÇùÈ8Îı³â¦2
+e
+java:S3655?"HCall "role.isPresent()" or "!role.isEmpty()" before accessing the value.(ÑíŞã8ïÌä”§2
+m
+java:S3655-"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(åĞÏÓ8í±¡â¦2

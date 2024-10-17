@@ -47,7 +47,6 @@ public class Roles extends BaseEntity{
 
         }
     }
-
     public String getName() {
         return name != null? name : "";
     }

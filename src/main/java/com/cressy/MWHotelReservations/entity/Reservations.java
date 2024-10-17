@@ -27,7 +27,7 @@ public class Reservations extends BaseEntity {
     @Column(name = "total_guest")
     private int totalNumOfGuest;
     @Column(name = "confirmation_code")
-    private String bookingConfirmationCode;
+    private String reservationConfirmationCode;
 
     @ManyToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "room_id")
@@ -48,6 +48,9 @@ public class Reservations extends BaseEntity {
     }
 
     public void setBookingConfirmationCode(String bookingConfirmationCode) {
-        this.bookingConfirmationCode = bookingConfirmationCode;
+        this.reservationConfirmationCode = bookingConfirmationCode;
     }
+
+    @OneToOne       //No cascade to avoid deleting stored amount from transaction entity.
+    private TransactionEntity transactionEntity;
 }

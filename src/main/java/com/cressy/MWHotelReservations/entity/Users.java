@@ -5,7 +5,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.security.core.GrantedAuthority;
 
 import java.time.LocalDateTime;
 import java.util.Collection;
@@ -36,6 +35,4 @@ public class Users extends BaseEntity{
                     referencedColumnName = "id"))
     private Collection<Roles> roles = new HashSet<>();
 
-//    public Users(String email, String password, Collection<GrantedAuthority> grantedAuthorities) {
-//    }
 }

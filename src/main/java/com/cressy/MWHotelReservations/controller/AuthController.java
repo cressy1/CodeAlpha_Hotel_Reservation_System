@@ -28,6 +28,7 @@ public class AuthController {
 
     @PostMapping("/login")
     public HotelResponse register(@RequestBody LoginDto loginDto) {
+
         return authServices.loginUser(loginDto);
     }
 

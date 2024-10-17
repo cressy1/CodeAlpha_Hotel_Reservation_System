@@ -1,0 +1,8 @@
+
+{	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(φ€ηϊÿÿÿÿ8υς½¦2
+r
+java:S3655N"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(μαΩ΄ωÿÿÿÿ8ς–ς®¨2
+C
+java:S1452*"&Remove usage of generic wildcard type.(Υ΄Η8ΐυς½¦2
+H
+java:S14526"&Remove usage of generic wildcard type.(θΛ¦Ϊψÿÿÿÿ8Δυς½¦2
